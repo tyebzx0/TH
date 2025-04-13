@@ -1,0 +1,124 @@
+body{
+    font-family: Roboto;
+}
+
+.less{
+    width: 100%;
+    height: 1770px;
+    background-color: #004449;
+}
+
+.less__container{
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.less__header{
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    .less__headline{
+            color: #D7FFC2;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 16px;
+            letter-spacing: 1.2px;
+            text-transform: uppercase;
+    }
+    .less__log{
+        color: #FFFEF0;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 16px;
+        letter-spacing: 1.6px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+}
+
+.less_content {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    .less__title{
+        font-weight: 400;
+        font-size: 80px;
+        line-height: 88px;
+        letter-spacing: 0%;
+        color: #FFFEF0;
+        margin-top: 340px;
+    }
+    .less__highligh{
+        color: #FFAC7F;
+        font-weight: 400;
+        font-size: 80px;
+        line-height: 88px;
+        letter-spacing: 0%;
+        margin-top: 6px;
+        margin-right: 70px;
+    }
+    .less__description{
+        color: #FFFEF0;
+        font-family: Roboto;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 48px;
+        letter-spacing: 0%;
+        margin-top: 10px;
+        margin-right: 132px;
+    }
+    .less__button-inner{
+        color: #004449;
+        text-align: center;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 1.6px;
+        text-transform: uppercase;
+        border: 1px #0BFF80 solid;
+        background-color: #0BFF80;
+        border-radius: 999px;
+        width: 338px;
+        height: 56px;
+        margin-top: 15px;
+        margin-right: 254px;
+    }
+    .less__button-icon{
+        padding-left: 5px;
+    }
+}
+
+.less__footer {}
+
+.less__footer-content {
+    margin-top: 600px;
+    .less__footer-title {
+        display: flex;
+        justify-content: center;
+        margin-right: 6px;
+        margin-bottom: 60px;
+        color: #FFFEF0;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 24px;
+        letter-spacing: 1.8px;
+        text-transform: uppercase;
+    }
+    .less__footer-brands {
+        display: flex;
+        justify-content: space-between;
+        gap: 350px;
+    }
+}
+
+
+.brand1 {}
+
+.brand2 {}
+
+.brand3 {}
+
+.brand4 {}
+
+.brand5 {}
