@@ -13,6 +13,7 @@ body {
     max-width: 1200px;
 }
 
+
 .less__header{
     padding: 50px 0;
     display: flex;
@@ -136,9 +137,9 @@ body {
     padding-top: 50px;
 }
 
-.works__container {
-    width: 1200px;
+.works__container{
     margin: 0 auto;
+    max-width: 1200px;
 }
 
 .works__header {
@@ -267,4 +268,107 @@ body {
     margin-left: 25px;
 }
 
+
+
+
+
+.travel {
+    background: url("../img/IMAGE.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 1200px;
+    min-height: 1700px;
+    padding-top: 50px;
+}
+
+.travel__container {
+    margin: 0  auto;
+    max-width: 1200px;
+}
+
+.travel__header {
+    display: flex;
+    justify-content: center;
+    .travel__title {
+        margin-top: 200px;
+        color: #004449;
+        font-weight: 400;
+        font-size: 64px;
+        line-height: 70px;
+        letter-spacing: 0%;
+        text-align: center;
+    }
+    .travel__title span{
+        border: 1px #D7FFC2 solid;
+        background-color: #D7FFC2;
+        width: 324px;
+        height: 70px;
+    }
+}
+
+.travel__list {    
+    display: flex;
+    justify-content: space-between;
+    gap: 130px;
+    margin-top: 500px;
+    .travel__item {
+        color: #004449;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0%;
+
+        background-color: #FFFEF0; 
+        border-radius: 8px; 
+        padding: 20px; 
+        margin: 10px; 
+        max-width: 326px; 
+        height: 365px;
+    }
+    
+    .travel__text {
+        font-size: 18px;
+        width: 256px;
+        height: 216px;
+    }
+    
+    .travel__author {
+        margin-top: 50px;
+    }
+    
+    .travel__name {
+        font-size: 18px;
+    }
+    
+    .travel__status {
+        font-size: 14px;
+    }
+}
+
+
+.travel__buttons {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 200px;
+
+    .travel__first-button {
+        width: 48px;
+        height: 48px;
+        border-radius: 50%;
+        background-color: #004449;
+    }
+
+    .travel__buttons-img {
+        width: 24px;
+        height: 24px;
+    }
+
+    .travel__second-button {
+        width: 48px;
+        height: 48px;
+        border-radius: 50%;
+        background-color: #004449;
+    }
+
+}
 
