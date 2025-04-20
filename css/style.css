@@ -334,4 +334,135 @@ body {
   height: 48px;
   border-radius: 50%;
   background-color: #004449;
+}
+
+.overplay {
+  background-color: #FFFEF0;
+  width: 1900px;
+  height: 650px;
+  display: flex;
+  justify-content: center;
+}
+.overplay__container {
+  margin-top: 135px;
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.overplay__content {
+  position: relative;
+  width: 944px;
+  height: 388px;
+  background-color: #BAEBFF;
+  border: 1px solid #BAEBFF;
+  border-radius: 8px;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.overplay__content-img {
+  position: absolute;
+  width: 384px;
+  height: 327px;
+  top: -90px;
+  left: -100px;
+  height: auto;
+}
+.overplay__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+}
+.overplay__title {
+  color: #004449;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+}
+.overplay__subtitle {
+  margin-top: 20px;
+  color: #004449;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+}
+.overplay__button {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+.overplay__button-t {
+  color: #ffffff;
+  background-color: #483CFF;
+  border: 2px solid #483CFF;
+  border-radius: 800px;
+  width: 140px;
+  height: 105px;
+  border-width: 2px;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 1.6px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+  text-transform: uppercase;
+  width: 140;
+}
+
+.footer {
+  background-color: #004449;
+  color: #ffffff;
+  padding: 60px 40px 20px;
+}
+.footer__container {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.footer__section {
+  flex: 1 1 200px;
+  margin-bottom: 40px;
+}
+.footer__title {
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 16px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  margin-bottom: 50px;
+}
+.footer__list {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+}
+.footer__item {
+  margin-top: 15px;
+}
+.footer__link {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 14px;
+}
+.footer__social {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.footer__social-icon {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */
